@@ -8,7 +8,6 @@ html, body{
 }
 :where(h1, h2, h3, h4, h5, h6):not(:last-child){
     margin-bottom: .5rem;
-
 }
 p:not(:last-child){
     margin-bottom: 1rem;
@@ -19,4 +18,13 @@ li:not(:last-child){
 a{
     text-decoration: none;
     transition: .4s all;
+    color: gray;
+}
+button{
+    height: 2rem;
+    width: 5.5rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2rem;
 }
