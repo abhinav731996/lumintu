@@ -2,20 +2,20 @@
 $primary: #003061;
 $secondary: #050509;
 $basecolor: #3AA9E9;
+$textcolor: #828284;
 
 $theme_colors: (
     "primary": $primary,
     "secondary": $secondary,
     "basecolor": $basecolor,
+    "textcolor": $textcolor,
 );
-
-$bodyBG: #fff;
 
 
 :root{
-    --abc: #fff;
-    --container-max-width: 1110px;
+    --container-max-width: 1140px;
 
+    --font-family-medium: "DMSans_18pt-Medium", sans-serif;
 }
 
 .container{
@@ -45,11 +45,7 @@ $bodyBG: #fff;
     --container-max-width: 100%;
     }
 }
-@media(max-width: 574.98px){
-    :root{
-    --container-max-width: 100%;
-    }
-}
+
 
 
 // font

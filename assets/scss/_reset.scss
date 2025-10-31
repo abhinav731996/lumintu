@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-family-medium);
 }
 html, body{
     scroll-behavior: smooth;
@@ -12,19 +13,6 @@ html, body{
 p:not(:last-child){
     margin-bottom: 1rem;
 }
-li:not(:last-child){
-    margin-bottom: .75rem;
-}
-a{
-    text-decoration: none;
-    transition: .4s all;
-    color: gray;
-}
-button{
-    height: 2rem;
-    width: 5.5rem;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 2rem;
-}
+// li:not(:last-child){
+//     margin-bottom: .75rem;
+// }
