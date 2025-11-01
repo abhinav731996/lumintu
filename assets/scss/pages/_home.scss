@@ -131,11 +131,11 @@ button{
     position: relative;
     justify-content: space-around;
     gap: 1rem;
-    padding: 2rem 0 2rem 0;
+    padding: 3rem 0 3rem 0;
 }
 .hero-left .bottom-panel{
     position: absolute;
-    bottom: 2rem;
+    bottom: 6rem;
 }
 .hero-contect{
     display: flex;
@@ -151,8 +151,10 @@ button{
     gap: 2rem;
     justify-content: space-around;
     color: white;
-
+    padding: 3rem 0 3rem 0;
 }
 .fun-fact{
     background-color: $primary;
 }
+
+// ************** about-us *************
