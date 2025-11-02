@@ -124,6 +124,9 @@ button{
 .blue{
     color: $basecolor;
 }
+.header-panel button a{
+    color: #ffffff;
+}
 
 // ************ hero-section ************
 .hero-panel{
@@ -132,6 +135,9 @@ button{
     justify-content: space-around;
     gap: 1rem;
     padding: 3rem 0 3rem 0;
+}
+.hero-panel button a{
+    color: #ffffff;
 }
 .hero-left .bottom-panel{
     position: absolute;
@@ -151,10 +157,118 @@ button{
     gap: 2rem;
     justify-content: space-around;
     color: white;
-    padding: 3rem 0 3rem 0;
+    height: 175px;
+    
 }
 .fun-fact{
     background-color: $primary;
 }
 
+
 // ************** about-us *************
+
+.about-us{
+    padding: 5rem 0 3rem 0;
+}
+.top-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.left-wrapper{
+    display: flex;
+    gap: 1rem;
+    width: 520px;
+}
+.right-wrapper{
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+.image-two{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.right-wrapper p{
+    color: $textcolor;
+}
+.right-wrapper h4{
+    color: $primary;
+}
+.right-wrapper button a{
+    color: white;
+}
+.bottom-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0 3rem 0;
+}
+
+
+// ************** services **************
+.insurance-wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+
+}
+.insurance-wrapper .card{
+    display: flex;
+    height: 140px;
+    background-color: rgb(240, 241, 251);
+    border-radius: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.insurance-wrapper .card .right-card{
+    align-content: center;
+    width: 300px;
+    height: 140px;
+}
+.insurance-wrapper .card p{
+    color: $textcolor;
+}
+
+.top-services{
+    display: flex;
+    flex-direction: column;
+}
+.top-services p{
+    color: $textcolor;
+}
+.service-top-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.services{
+    padding: 3rem 0 3rem 0;
+}
+
+
+// ************* why-us **************
+.why-us{
+    background-color: $primary;
+    color: #ffffff;
+    padding: 6rem 0 6rem 0;
+}
+.us-wrapper{
+    display: flex;
+}
+.card-us .card{
+    display: flex;
+    gap: 1rem;
+    height: 140px;
+    border-radius: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-us .card p{
+    color: $textcolor;
+}
+.right-us img{
+    width: 620px;
+    height: 550px;
+
+}
